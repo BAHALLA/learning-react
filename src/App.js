@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import Greet from "./components/Greet";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
     <div className="App">
-       <Greet name="ok"/>
+
+        <EventBind></EventBind>
     </div>
   );
 }
