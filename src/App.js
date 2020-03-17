@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import UserGreeting from "./components/UserGreeting";
-import NameList from "./components/NameList";
+import PortalDemo from "./portals/PortalDemo";
 
 function App() {
   return (
     <div className="App">
-        <NameList/>
+       <PortalDemo/>
     </div>
   );
 }
